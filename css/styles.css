@@ -1,0 +1,309 @@
+@charset "utf-8";
+
+*{
+  padding:0;
+  margin:0;
+}
+
+#header{
+  height:80px;
+  background:#000;
+}
+.header-style{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+.header-logo{
+  color:#fff;
+  margin-left:30px;
+  line-height:80px;
+}
+
+.header-nav li{
+  display:inline-block;
+  line-height:80px;
+  margin:0 20px;
+  color:#fff;
+}
+
+#eyecatch{
+  height:600px;
+  background-image: url(../img/eyecatch.jpg);
+  background-size:cover;
+  background-position: center;
+  position:relative;
+}
+#eyecatch h2{
+  position:absolute;
+  color:#fff;
+  top:70%;
+  left:10%;
+  font-size:30px;
+  font-style:italic;
+
+}
+.news{
+  position: absolute;
+  width:50%;
+  height:40px;
+  background:#fff;
+  right:0;
+  bottom:0;
+  display:flex;
+}
+.news h3{
+  line-height:50px;
+  font-size:10px;
+  margin-left:10px;
+  font-weight:normal;
+}
+.news p{
+  position:absolute;
+  margin-left:5px;
+  font-size:10px;
+}
+.news-tag{
+  margin-left:auto;
+  background:#000;
+  width:20%;
+  color:#fff;
+  line-height:40px;
+  text-align:center;
+  font-size:10px;
+}
+
+.mission{
+  height:400px;
+  background:#fff;
+}
+
+.mission-size{
+  height:300px;
+  background:#000000;
+}
+
+.mission-contents{
+  position:relative;
+  top:30%;
+  left:20%;
+  width:50%;
+  z-index: 2;
+}
+.mission-contents h1{
+  font-size:16px;
+  font-weight:bold;
+  color:#fff;
+}
+.mission-contents p{
+  font-size:10px;
+  padding-bottom:20px;
+  color:#fff;
+}
+
+.mission-buttun{
+  width:100px;
+  height:30px;
+  background:#fff;
+  color:#000000;
+  font-size:10px;
+  text-align:center;
+  line-height:30px;
+  cursor:pointer;
+}
+.mission-img{ 
+   width:400px;
+  height:250px;
+  position:relative;
+  top:-17%;
+  left:53%;
+  z-index: 1;
+}
+.mission-img img{
+  width:400px;
+  height:auto;
+}
+
+.service{
+  height:1200px;
+  background:#dddddd;
+}
+.service h1{
+  color:#000000;
+  font-size:30px;
+  text-align:center;
+}
+.service-contents-left{
+  width:50%;
+  height:400px;
+}
+.service-contents{
+  height:400px;
+  display:flex;
+  margin-bottom:200px;
+}
+.service-card{
+  width:400px;
+  height:200px;
+  background:#fff;
+  position:relative;
+  top:20%;
+  left:40%;
+}
+.service-card2{
+  width:400px;
+  height:200px;
+  background:#fff;
+  position:relative;
+  top:20%;
+  left:-15%;
+}
+.service-card h2,
+.service-card2 h2{
+  font-size:10px;
+  padding:40px 0 5px 30px;
+}
+.service-card p,
+.service-card2 p{
+  font-size:10px;
+  padding:0 30px 5px ;
+}
+.service-botton{
+  width:100px;
+  height:20px;
+  float:right;
+  margin-right:30px;
+  font-size:10px;
+  border:1px solid #000;
+  text-align:center;
+  line-height:20px;
+  cursor:pointer;
+}
+
+
+.service-contents img{
+  width:50%;
+}
+
+.reverce{
+  flex-direction: row-reverse;
+}
+
+
+#company{
+  height:450px;
+}
+.company-contents{
+  display:flex;
+  justify-content: space-between;
+  margin-top:100px;
+}
+.company-box{
+  width:500px;
+  height:150px;
+  background-image: url(../img/company.jpeg);
+  background-size:cover;
+}
+.company-box h1,
+.recruit-box h1{
+  position:relative;
+  color:#fff;
+  font-size:20px;
+  text-align:center;
+  top:25%;
+}
+.company-box p,
+.recruit-box p{
+  position:relative;
+  top:25%;
+  color:#fff;
+  font-size:12px;
+  text-align:center;
+}
+
+.recruit-box{
+  width:500px;
+  height:150px;
+  background-image:url(../img/recruit.jpg);
+  background-size:cover;
+}
+
+.faq{
+  width:700px;
+  height:100px;
+  margin:100px auto;
+  background:#000;
+  display:flex;
+  justify-content: flex-start;
+}
+.faq h1{
+  color:#fff;
+  line-height:100px;
+  margin-left:30px;
+  font-size:20px;
+}
+.faq p{
+  color:#fff;
+  font-size:10px;
+  width:100px;
+  margin:0 auto;
+  line-height:100px;
+  cursor:pointer;
+}
+
+#contact{
+  width:100%;
+  height:400px;
+  background-image:url(../img/contact-bg.jpg);
+  background-repeat:no-repeat;
+  background-size:100% 400px;
+}
+
+#contact h1,
+#contact p,
+#contact h2,
+#contact div{
+  text-align:center;
+  color:#fff;
+}
+#contact h1{
+  padding-top:100px;
+  font-size:20px;
+}
+
+#contact p:nth-child(2){
+  font-size:5px;
+  font-weight:bold;
+  padding-bottom:15px;
+}
+#contact h2{
+  font-size:20px;
+  padding-bottom:15px;
+}
+#contact p:nth-child(4){
+  font-size:5px;
+  padding:15px;
+}
+#contact div{
+  width:100px;
+  height:20px;
+  border:1px solid #fff;
+  margin:0 auto;
+  line-height:20px;
+  font-size:5px;
+  cursor:pointer;
+}
+
+#footer{
+  height:80px;
+  background:#000;
+}
+
+.small{
+  background:#000;
+  color:#fff;
+  text-align:center;
+  font-size:5px;
+  height:30px;
+}
